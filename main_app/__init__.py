@@ -19,6 +19,5 @@ app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USERNAME'] = ''
 app.config['MAIL_PASSWORD'] = ''
 mail = Mail(app)
-#mail server unavailable
 
 from main_app import routes
