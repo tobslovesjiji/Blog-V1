@@ -82,6 +82,7 @@ a.article-title:hover {
     position: absolute;
     bottom: 1;
     width: 100%;
+    height: 60px;
     background-color: #a7a090;
     color: white;
     text-align: left;
