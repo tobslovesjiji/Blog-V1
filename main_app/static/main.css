@@ -1,7 +1,7 @@
 /*This css page will determine all the colour aspects of my website*/
 
 body {
-    background: #dad3c1;
+    background-image: url("images/background.png");
     color: #000000;
     margin-top: 5rem;
 }
@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #000000;
 }
 
-.bg-steel { background-color: #a7a090;
+.bg-steel { background-color: #a7a090c2;
 }
 
 .site-header .navbar-nav .nav-link {
@@ -26,9 +26,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content-section {
-    background: #a7a090;
+    background: #c0b8a6;
     padding: 10px 20px;
     margin-bottom: 24px;
+    border-radius: 8px;
+}
+
+.list-group-item {
+    background-color: #a7a090;
 }
 
 .article-title {
@@ -36,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a.article-title:hover {
-    color: 428bca;
+    color: white;
     text-decoration: none;
 }
 
@@ -57,7 +62,7 @@ a.article-title:hover {
 }
 
 .article-metadata a:hover {
-    color: #000;
+    color: white;
     text-decoration: none;
 }
 
@@ -76,4 +81,79 @@ a.article-title:hover {
 
 .account-heading {
     font-size: 2.5rem;
+}
+
+.mr-2 {
+   display: inline-block;
+   position: relative;
+   color: white;
+}
+ 
+.mr-2:after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   transform: scaleX(0);
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   background-color: white;
+   transform-origin: bottom right;
+   transition: transform 0.25s ease-out;
+}
+ 
+.mr-2:hover:after {
+   transform: scaleX(1);
+   transform-origin: bottom left;
+}
+
+.article-title {
+   display: inline-block;
+   position: relative;
+   color: black;
+}
+ 
+.article-title:after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   transform: scaleX(0);
+   height: 3px;
+   bottom: -5px;
+   left: 0;
+   background-color: white;
+   transform-origin: bottom right;
+   transition: transform 0.25s ease-out;
+}
+ 
+.article-title:hover:after {
+   transform: scaleX(1);
+   transform-origin: bottom left;
+}
+
+#footer {
+    height: 300px;
+    width: 615px;
+    margin: 0 auto 0 auto;
+    padding: 20px 0 0 0px;
+    position: relative;
+}
+
+  #footer p {
+  color: #657792;
+  font-size: 10px;
+  line-height: 100%;
+}
+
+#footer img {
+  display: inline;
+  margin-right: 35px;
+}
+
+a img {
+  border: 0;
+}
+
+.esrb {
+  float: left;
 }
