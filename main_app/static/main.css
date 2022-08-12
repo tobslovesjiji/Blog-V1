@@ -28,9 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 .content-section {
     background: #a7a090;
     padding: 10px 20px;
-    border: 1px solid #a7a090;
-    border-radius: 3px;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 .article-title {
@@ -80,3 +78,13 @@ a.article-title:hover {
     font-size: 2.5rem;
 }
 
+.footer {
+    position: absolute;
+    bottom: 1;
+    width: 100%;
+    background-color: #a7a090;
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 15px;
+ }
