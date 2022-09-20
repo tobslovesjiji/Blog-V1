@@ -1,4 +1,4 @@
-/*This css page will determine all the colour aspects of my website, as well as how some aspects look in terms of shape/positioning*/
+/*This css page will determine all the colour aspects of my website, as well as how some aspects look in terms of shape and positioning*/
 
 body {
     background-image: url("images/background.png");
@@ -144,7 +144,7 @@ a.article-title:hover {
     padding-bottom: 50px;
 }
 
-  #footer p {
+#footer p {
     color: #657792;
     font-size: 10px;
     line-height: 100%;
@@ -158,3 +158,4 @@ a.article-title:hover {
 a img {
     border: 0;
 }
+
